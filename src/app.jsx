@@ -1,8 +1,8 @@
 export default function App() {
   return (
     <main>
-      <h1 className="text-3xl text-red-500">Hello, World!</h1>
-      <p>This is a simple React application.</p>
+      <h1 className="text-3xl text-blue-950">Lauren Evans</h1>
+      <p>Final Assignment: Part 1</p>
     </main>
   )
 }
