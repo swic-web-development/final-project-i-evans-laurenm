@@ -10,12 +10,16 @@ function PeopleList({ people }) {
           key={person.name}
           className="rounded-lg bg-gray-900 p-6 shadow-lg transition-transform duration-300 hover:scale-105"
         >
-          <h2 className="px-7 text-xl font-semibold">{person.name}</h2>
-          <p>Birth Date: {person.birth_year}</p>
-          <p>Height: {person.height}</p>
-          <p>Gender: {person.gender}</p>
-          <p>Color: {person.skin_color}</p>
-          <p>Eye Color: {person.eye_color}</p>
+          <h2 className="h-24 w-24 rounded-full border-2 border-yellow-400 px-2 py-8 text-center text-xl font-bold">
+            {person.name}
+          </h2>
+          <section className="py-8">
+            <p>Birth Date: {person.birth_year}</p>
+            <p>Height: {person.height}</p>
+            <p>Gender: {person.gender}</p>
+            <p>Color: {person.skin_color}</p>
+            <p>Eye Color: {person.eye_color}</p>
+          </section>
         </li>
       ))}
     </ul>
