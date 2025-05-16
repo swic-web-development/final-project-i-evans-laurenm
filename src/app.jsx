@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
-import store from './store.js'
-import { fetchPeople } from './actions.js'
+import store from './store.jsx'
+import { fetchPeople } from './actions.jsx'
 
 function PeopleList({ people }) {
   return (

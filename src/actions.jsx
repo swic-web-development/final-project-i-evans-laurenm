@@ -1,4 +1,4 @@
-import store from './store.js'
+import store from './store.jsx'
 
 export async function fetchPeople() {
   store.setState({ isLoading: true, error: null })
