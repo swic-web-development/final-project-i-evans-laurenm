@@ -7,9 +7,12 @@ function PeopleList({ people }) {
     <ul className="space-y-4">
       {people.map((person) => (
         <li key={person.name} className="rounded bg-gray-800 p-4 shadow">
-          <h2 className="text-xl font-semibold">{person.name}</h2>
+          <h2 className="px-7 text-xl font-semibold">{person.name}</h2>
+          <p>Birth Date: {person.birth_year}</p>
           <p>Height: {person.height}</p>
           <p>Gender: {person.gender}</p>
+          <p>Color: {person.skin_color}</p>
+          <p>Eye Color: {person.eye_color}</p>
         </li>
       ))}
     </ul>
